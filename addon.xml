@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.toontime" name="ToonTime" version="1.0.0" provider-name="iCH3F">
+    <requires>
+        <import addon="xbmc.python" version="2.25.0"/>
+        <import addon="script.module.requests"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="Default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <news>
+[COLOR orange][B]ToonTime[/B][/COLOR]
+[COLOR grey][I]by iCH3F[/I][/COLOR]
+
+
+[COLOR white][B][I]Changelog:[/B][/I][/COLOR]
+
+[COLOR blue][B]1.0.0:[/B][/COLOR]
+[COLOR grey]- Plugin name change[/COLOR]
+
+[COLOR blue][B]0.0.9:[/B][/COLOR]
+[COLOR grey]- Corrected warning error in blocked videos[/COLOR]
+
+[COLOR blue][B]0.0.8:[/B][/COLOR]
+[COLOR grey]- Corrected a typo in addons.xml file[/COLOR]
+
+[COLOR blue][B]0.0.7:[/B][/COLOR]
+[COLOR grey]- Autoplay setting re-enabled
+- Added option to allow letter thumbnails in catalog sections - for custom Kodi skins
+- Added warning when video is blocked due to excess traffic[/COLOR]
+
+[COLOR blue][B]0.0.6:[/B][/COLOR]
+[COLOR grey]- Free users re-enabled
+- Autoplay setting disabled[/COLOR]
+
+[COLOR blue][B]0.0.5:[/B][/COLOR]
+[COLOR grey]- Free users disabled[/COLOR]
+
+[COLOR blue][B]0.0.4:[/B][/COLOR]
+[COLOR grey]- Minor bug fixes[/COLOR]
+
+[COLOR blue][B]0.0.3:[/B][/COLOR]
+[COLOR grey]- Fixed bug in search option[/COLOR]
+
+[COLOR blue][B]0.0.2:[/B][/COLOR]
+[COLOR grey]- Tools added: Restore Watched Episodes, Update Favourites
+- Minor bug fix to movie titles[/COLOR]
+
+[COLOR blue][B]0.0.1:[/B][/COLOR]
+[COLOR grey]- Changed scraping domain
+- Fix for Clean Episode Titles option[/COLOR]
+
+[COLOR blue][B]0.0.0beta:[/B][/COLOR]
+[COLOR grey]- Initial release[/COLOR]
+        </news>
+        <description lang="en">
+Watch all of your favourite cartoons!
+
+[I]Add-on by iCH3F[/I]
+        </description>
+        <platform lang="en">all</platform>
+        <disclaimer lang="en">[COLOR red]The creator of this Kodi add-on do not host any of the content found on this plugin, nor do they have any affiliation with the content providers or creators. This add-on purely scrapes web pages it is pointed towards.[/COLOR]</disclaimer>
+    </extension>
+</addon>
